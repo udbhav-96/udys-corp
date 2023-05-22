@@ -1,0 +1,495 @@
+body{
+    background-color: #0c0f16;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-section{
+    padding: 5rem 0rem;
+}
+.first-section .bullseye{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+.first-section .bullseye i{
+    color: #75DAB4;
+    font-size: 1.5rem;
+}
+.first-section .bullseye p{
+    font-size: 1.5rem;
+    margin: 0;   
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.first-section h1{
+    font-size: 42px;
+    font-weight: 500;
+    color: #fff;
+}
+.first-section p{
+    font-size: 16px;
+    color: #c9c9c9;
+}
+.first-section img{
+    border: 3px solid #75DAB4;
+    border-radius: 10px;
+}
+.first-section .myButton{
+    text-align: center;
+    margin: 2rem 0rem;
+}
+.first-section .myButton h2{
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 600;
+}
+.first-section .myButton h2 span{
+    color: #adbbb8;
+}
+.first-section .myButton .udys-btn{
+    border: none;
+    background-color: #75DAB4;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 30px;
+    border-radius: 4px;
+}
+.first-section .myButton .timer p{
+    font-size: 5rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding-top: 1rem;
+    line-height: 4.75rem;
+}
+.first-section .myButton .timer span{
+    font-size: 15px;
+}
+/* limited section */
+/* *************************************************************** */
+.limited{
+    padding: 5rem 0rem;    
+}
+.limited .heading{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.limited .heading p{
+    color: #75DAB4;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.limited .heading p span{
+    font-size: 9rem;
+    position: absolute;
+    left: 20%;
+    top: -50px;
+    color: #0c0f16;
+    font-weight: 700;
+    text-shadow: 0 0 3px white;
+    opacity: 0.15;
+    z-index: -1;
+}
+.limited .heading h2{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.limited .content{
+    text-align: center;
+}
+.limited .content p{
+    ont-size: 16px;
+    color: #c9c9c9;
+    line-height: 3.5rem;
+}
+.limited .content .udys-btn{
+    border: none;
+    text-transform: uppercase;
+    background-color: #75DAB4;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border-radius: 4px;
+}
+/* *************************************************************** */
+
+
+/* curriculum section */
+/* *************************************************************** */
+
+.curriculum{
+    padding: 5rem 0rem;    
+}
+.curriculum .heading{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.curriculum .heading p{
+    color: #75DAB4;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.curriculum .heading p span{
+    font-size: 9rem;
+    position: absolute;
+    left: 19%;
+    top: 0px;
+    color: #0c0f16;
+    font-weight: 700;
+    text-shadow: 0 0 3px white;
+    opacity: 0.15;
+    z-index: -1;
+    text-transform: lowercase;
+}
+.curriculum .heading h2{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.curriculum  .curriculum-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+}
+.curriculum  .curriculum-box i{
+    font-size: 3rem;
+}
+.curriculum  .curriculum-box p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.curriculum  .curriculum-box.one{
+    background-color: #171a20c9;
+    margin-top: 0rem;
+}
+.curriculum  .curriculum-box.one i{
+    color: #75DAB4;
+}
+.curriculum  .curriculum-box.one p{
+    color: #fff;
+}
+.curriculum  .curriculum-box.two{
+    background-color: #75DAB4;
+    margin-top: 3rem;
+}
+.curriculum  .curriculum-box.two i{
+    color: #0c0f16;
+}
+.curriculum  .curriculum-box.two p{
+    color: #0c0f16;
+}
+.curriculum  .curriculum-box.three{
+    background-color: #171a20c9;
+    margin-top: 6rem;
+}
+.curriculum  .curriculum-box.three i{
+    color: #75DAB4;
+}
+.curriculum  .curriculum-box.three p{
+    color: #fff;
+}
+.curriculum .last p{
+    color: #FFFFFF;
+    font-family: "Barlow Condensed", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+/* *************************************************************** */
+
+/* rat-race section */
+/* *************************************************************** */
+.rat-race{
+    padding: 5rem 0rem;    
+}
+.rat-race .heading{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.rat-race .heading p{
+    color: #75DAB4;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.rat-race .heading p span{
+    font-size: 9rem;
+    position: absolute;
+    left: 20%;
+    top: -50px;
+    color: #0c0f16;
+    font-weight: 700;
+    text-shadow: 0 0 3px white;
+    opacity: 0.15;
+    z-index: -1;
+}
+.rat-race .heading h2{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.rat-race .content{
+    text-align: center;
+}
+.rat-race .content p{
+    ont-size: 16px;
+    color: #c9c9c9;
+    line-height: 1.5rem;
+    padding: 2rem 0rem 1rem;
+}
+.rat-race .content .udys-btn{
+    border: none;
+    text-transform: uppercase;
+    background-color: #75DAB4;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border-radius: 4px;
+}
+/* *************************************************************** */
+
+
+
+/* udys corpotation section */
+/* *************************************************************** */
+.udys-corp{
+    padding: 5rem 0rem;    
+}
+.udys-corp .heading{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.udys-corp .heading p{
+    color: #75DAB4;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.udys-corp .heading p span{
+    font-size: 9rem;
+    position: absolute;
+    left: 20%;
+    top: -50px;
+    color: #0c0f16;
+    font-weight: 700;
+    text-shadow: 0 0 3px white;
+    opacity: 0.15;
+    z-index: -1;
+}
+.udys-corp .heading h2{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.udys-corp .content{
+    text-align: center;
+}
+.udys-corp .content p{
+    ont-size: 16px;
+    color: #c9c9c9;
+    line-height: 1.5rem;
+    padding: 2rem 0rem 1rem;
+}
+.udys-corp .content .udys-btn{
+    border: none;
+    text-transform: uppercase;
+    background-color: #75DAB4;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border-radius: 4px;
+}
+/* *************************************************************** */
+
+
+/* FAQ section */
+/* *************************************************************** */
+.ud-faq{
+    padding: 5rem 0rem;    
+}
+.ud-faq .heading{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.ud-faq .heading p{
+    color: #75DAB4;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.ud-faq .heading p span{
+    font-size: 9rem;
+    position: absolute;
+    left: 20%;
+    top: -50px;
+    color: #0c0f16;
+    font-weight: 700;
+    text-shadow: 0 0 3px white;
+    opacity: 0.15;
+    z-index: -1;
+}
+.ud-faq .heading h2{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.ud-faq .content{
+    text-align: center;
+}
+
+#main {
+  margin: 50px 0;
+}
+
+#main #faq .card {
+  margin-bottom: 30px;
+  border: 0;
+}
+
+#main #faq .card .card-header {
+  border: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+          box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  border-radius: 2px;
+  padding: 0;
+}
+
+#main #faq .card .card-header .btn-header-link {
+  display: block;
+  text-align: center;
+  background: #2d2d2d;
+  color: #fff;
+  padding: 20px;
+  border-radius: 0px;
+}
+
+#main #faq .card .card-header .btn-header-link:after {
+  content: "\f107";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed {
+  background: #75dab4;
+  color: #000;
+  border-radius: 0px;
+  text-align: center;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed:after {
+  content: "\f106";
+}
+
+#main #faq .card .collapsing {
+  background: #2d2d2d;
+  line-height: 30px;
+}
+
+#main #faq .card .collapse {
+  border: 0;
+}
+
+#main #faq .card .collapse.show {
+  background: #2d2d2d;
+    line-height: 30px;
+    color: #fff;
+}
+.ud-faq .content .faq-ud-circle{
+    padding-bottom: 2rem;
+}
+.ud-faq .content .faq-ud-circle img{
+    width: 25%;
+    border-radius: 50%;
+    border: 3px solid #75DAB4;
+}
+
+.ud-faq .content .udys-btn{
+    border: none;
+    text-transform: uppercase;
+    background-color: #75DAB4;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border-radius: 4px;
+}
+/* *************************************************************** */
+
+
+/* Follow links section */
+/* *************************************************************** */
+/*.udys-links{
+    padding: rem 0rem;
+}*/
+.udys-links p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.udys-links .content{
+    height: 75vh;
+    display: flex;
+    background-color: #151921;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+.udys-links .link-box {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+.udys-links .link-box i{
+    color: #75DAB4;
+    font-size: 20px;
+}
+/* *************************************************************** */
+
+/* footer */
+/* *************************************************************** */
+.udys-footer{
+    text-align: center;
+    padding: 1.5rem 0rem 3rem;
+    background-color: #13161d;
+}
+.udys-footer p{
+    font-size: 14px;
+    color: #999999;
+}
+/* *************************************************************** */
