@@ -108,7 +108,7 @@ body{
     text-align: center;
 }
 .limited .content p{
-    ont-size: 16px;
+    font-size: 16px;
     color: #c9c9c9;
     line-height: 3.5rem;
 }
@@ -493,3 +493,50 @@ body{
     color: #999999;
 }
 /* *************************************************************** */
+
+/* Media Query (Tablet) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Media Query (Mobile) */
+@media only screen and (max-width: 450px) {
+    .limited .heading h2 {
+        font-size: 3rem;
+    }
+    .limited .heading p span {
+        font-size: 3.5rem;
+        left: 0;
+    }
+    .limited .content p {
+        line-height: 2.5rem;
+    }
+    .rat-race .heading h2 {
+        font-size: 3rem;
+    }
+    .rat-race .heading p span {
+        font-size: 3.5rem;
+        left: 0;   
+    }
+    .curriculum .heading h2 {
+        font-size: 3rem;
+    }
+    .curriculum .heading p span {
+        font-size: 3.5rem;
+        left: 0;
+    }
+    .udys-corp .heading h2 {
+        font-size: 3rem;
+    }
+    .udys-corp .heading p span {
+        font-size: 3rem;
+        left: 0;   
+    }
+    .ud-faq .heading p span {
+        font-size: 5rem;
+        left: 0;   
+    }
+    .first-section .bullseye p {
+        letter-spacing: 3px;
+    }
+}
